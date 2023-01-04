@@ -1,1 +1,3 @@
-# Deals-near-me
+# Deals Near Me
+
+Hands-on project from week2

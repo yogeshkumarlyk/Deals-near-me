@@ -1,0 +1,59 @@
+
+#map {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.box{
+    border: 2px solid black;
+    padding: 20px;
+}
+.deals{
+    position: fixed;
+    right: 100px;
+    
+}
+.rad, .cat, .sub{
+    padding: 10px;
+}
+.marker {
+    background-image: url('img/placeholder.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+.mapboxgl-popup {
+max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'Open Sans', sans-serif;   
+}
+@media screen and (max-width:900px) and (min-width:350px)  {
+    .form{
+        font-size: 10px;
+    }
+    #radius{
+        width: 80px;
+    }
+    .radclass,.catclass{
+        font-size: 15px;
+
+    }
+    #radius,#category{
+        font-size: 12px;
+    }
+    .deals{
+        position: absolute;
+        right: 30px;
+        font-size: 15px;
+        margin-top: 10%;
+        margin-bottom: 10px;
+    
+    }
+
+}

@@ -1,0 +1,88 @@
+{
+    "Stores": [
+        {
+          "coordinates": {"lat" : 80.2257325953776, "long":13.117561734457704 },
+           "title": "Max-clothing",
+           "discount":"Discount:20%",
+           "category": "clothes"
+        },
+        {
+          "coordinates": {"lat" : 80.23047051480094, "long":13.11723135781084 },
+            "title": "Reliance trends",
+            "discount":"Discount:15%",
+            "category": "clothes"
+        },
+        {
+          "coordinates": {"lat" : 80.23882247194528, "long":13.135835184490622  },
+            "title": "D-Stock",
+            "discount":"Discount:20%",
+            "category": "clothes"
+        },
+        {
+          "coordinates": {"lat" : 80.23176394125703, "long":13.11766944721696  },
+            "title": "Yousuf-clothing",
+            "discount":"Discount:30%",
+            "category": "clothes"
+        },
+        {
+          "coordinates": {"lat" : 80.24138413022263, "long":13.129529116482136 },
+            "title": "Zam-Zam Footwear",
+            "discount":"Discount:25%",
+            "category": "Footwear"
+        },
+        {
+          "coordinates": {"lat" : 80.24568448452823, "long":13.17094233312311 },
+            "title": "Metro Footwear",
+            "discount":"Discount:30%",
+            "category": "Footwear"
+        },
+        {
+          "coordinates": {"lat" : 80.26013033234175, "long":13.165810656305224 },
+            "title": "Lucky Shoemart",
+            "discount":"Discount:20%",
+            "category": "Footwear"
+        },
+        {
+          "coordinates": {"lat" : 80.24817957194027, "long":13.1069231961494831 },
+            "title": "SS Hyderabad Briyani",
+            "discount":"Discount:25%",
+            "category": "Food"
+        },
+        {
+          "coordinates": {"lat" : 80.246432871951826, "long":13.17220914644602 },
+            "title": "Chef-mode",
+            "discount":"Discount:36%",
+            "category": "Food"
+        },
+        {
+          "coordinates": {"lat" : 80.22140621997869, "long":13.088737245247476 },
+            "title": "Dindugal Thalapakatti",
+            "discount":"Discount:28%",
+            "category": "Food"
+        },
+        {
+          "coordinates": {"lat" :  80.25407952802786, "long":13.170562360278556 },
+            "title": "Shawarma point",
+            "discount":"Discount:10%",
+            "category": "Food"
+        },
+        {
+          "coordinates": {"lat" : 80.2385079719454, "long":13.135779025057731},
+            "title": "More Supermarket",
+            "discount":"Discount:40%",
+            "category": "grocery"
+        },
+        {
+          "coordinates": {"lat" : 80.25009029744238, "long":13.167459132443573},
+            "title": "JS Supermarket",
+            "discount":"Discount:20%",
+            "category": "grocery"
+        },
+        {
+          "coordinates": {"lat" :  80.25186544735988, "long":13.134327636998039},
+            "title": "Reliance fresh",
+            "discount":"Discount:15%",
+            "category": "grocery"
+        }
+    ]
+}

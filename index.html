@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <title>Deals near me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css"/>
+
+</head>
+<body>
+    <div >
+        <div id='map'></div>   
+    </div>  
+      
+    <div class="deals">
+        <h1>Deals near me</h1>
+        <div class="box">
+        <form class="form">
+           <div class="rad">
+               <label for="radi" class="radclass">Radius : </label>
+               <input input type="number" name="radius" id="radius" oninput="getStoresLocation()">
+               
+           </div> 
+           <div class="cat">
+                <label for="cate" class="catclass">Category : </label>
+                <select name="category" id="category">
+                    <option value="Food">Food</option>
+                    <option value="clothes">Dress</option>
+                    <option value="Footwear">Footwear</option>
+                    <option value="grocery">Grocery</option>
+                </select>
+            </div>
+            <div class="sub">
+            <!-- <button onclick="getRadiusCategory()" >search</button> -->
+            </div> 
+        </form>
+        </div>
+
+    </div>
+    <script src="first.js"></script>
+    <script src="plotter.js"></script>  
+       
+
+
+</body>
+</html>
